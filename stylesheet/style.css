@@ -6,11 +6,15 @@ body{
     position: absolute;
     top: 225px;
     left: 429px;
+    bottom: 226px;
     width: 582px;
     height: 573px;
     background: #FFFEFE;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+}
+.container:hover{
+    border-color: #089FE0;
 }
 /* .input-form{ */
     /* display: flex; */
@@ -47,16 +51,21 @@ padding-right: 150px;
 }
 .signup{
     background-color:  #089FE0;
+    color: #FFFFFF;
+    
     border-radius: 5px;
-    padding-left: 162px;
+    /* padding-left: 162px;
     padding-right: 162px;
     padding-top: 9px;
-    padding-bottom: 9px;
+    padding-bottom: 9px; */
+    padding: 9px 162px 9px 162px;
+
     margin-left: 93px;
     margin-right: 95px;
+    margin-top: 22px;
 
 }
-.buttons{
+.button{
     background: #F5F5F5;
     border-radius: 5px;
     padding: 9px 162px 9px 162px;
@@ -65,11 +74,43 @@ padding-right: 150px;
     /* text-align: left; */
 }
 
-placeholder{
+input{
+    padding: 9px 162px 9px 162px;
+    border-radius: 5px;
+    background: #F5F5F5;
+
+    margin-left: 70px;
+    margin-right: 95px;
+    margin-top: 22px;
+    text-align: start;
+    /* position: absolute; */
+    
+}
+
+::placeholder {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
     position: absolute;
     left: 11px;
-}
-.buttons + .buttons{
-    margin-bottom: 22px;
 
+  }
+  input:hover{
+    border-color: #089FE0;
+  }
+
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    
 }
