@@ -1,0 +1,75 @@
+body{
+    background-color:  #E5E5E5;
+    font-family: Open sans-serif
+}
+.container{
+    position: absolute;
+    top: 225px;
+    left: 429px;
+    width: 582px;
+    height: 573px;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+/* .input-form{ */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    
+/* } */
+.heading{
+font-family: Open Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+/* margin-bottom: 73px; */
+padding-top: 72px;
+padding-left: 93px;
+padding-right: 106px;
+
+}
+.p-heading{
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+/* text-align: left; */
+padding-left: 151px;
+padding-right: 150px;
+
+
+}
+.signup{
+    background-color:  #089FE0;
+    border-radius: 5px;
+    padding-left: 162px;
+    padding-right: 162px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 93px;
+    margin-right: 95px;
+
+}
+.buttons{
+    background: #F5F5F5;
+    border-radius: 5px;
+    padding: 9px 162px 9px 162px;
+    margin-left: 93px;
+    margin-right: 95px;
+    /* text-align: left; */
+}
+
+placeholder{
+    position: absolute;
+    left: 11px;
+}
+.buttons + .buttons{
+    margin-bottom: 22px;
+
+}
